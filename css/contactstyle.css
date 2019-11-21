@@ -1,0 +1,252 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	outline: 0%;
+}
+
+header {
+	border-bottom: 5px solid #e4e4e4;
+}
+
+.head {
+
+}
+
+.head img {
+	padding: 8% 0%;
+}
+
+.head nav {
+	
+}
+
+.head ul {
+	text-decoration: none;
+	font-size: 108%;
+	color: #161616;
+}
+
+.head li {
+
+    display: inline-block;
+     margin: 17% 20%;
+}
+
+.head a {
+    text-decoration: none;
+    color: #161616;
+}
+/*Header section ends*/
+
+.icon {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+
+    margin-left: 5px;
+}
+
+.icon-left,
+.icon-middle,
+.icon-right {
+    position: absolute;
+}
+
+.icon-left {
+    left: 35%;
+    bottom: 90px;
+    margin-left: -5px;
+}
+.icon-middle {
+    left: 50%;
+    top: 150px;
+    margin-left: 29px;
+}
+.icon-middle .icon:first-child {
+    background-color: #333;
+    margin-right: -100px;
+}
+.icon-left,
+.icon-middle .icon,
+.icon-right {
+    transform: rotate(-45deg);
+}
+.icon-right {
+    right: 163px;
+    bottom: 113px;
+}
+
+.insidepage-part{
+    padding: 80px 0px;
+}
+
+
+.contact-part{
+    background-color: #ee4a3f;
+    color: #fff;
+    
+}
+
+.contact-part h2{
+    color: #fff;
+    padding: 50px 0px;
+}
+
+.icons {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.icons .icon {
+    background-color: #333;
+    transform: rotate(-45deg);
+}
+
+.icons .icon:last-child {
+    background-color: #fff;
+    margin-left: -90px;
+}
+
+.tringle-pic img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.contact-form {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-controol{
+    width: 100%;
+    background-color: #ff6258;
+    border: none;
+    padding: 3%;
+    margin-bottom: 2%;
+
+}
+
+
+.btn-cstm{
+	 background-color: transparent;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    /*padding: 2% 35%;*/
+    margin-bottom: 8%;
+
+ }
+
+
+.logo-inside{
+    color: #505050;
+}
+
+.inside-content-right {
+    padding-top: 35px;
+}
+
+.about-us .about-img {
+    top: -15px;
+    left: 220px;
+}
+
+.about-img {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+
+.inside-content-right p {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.icon-pic {
+    position: absolute;
+    left: -20%;
+    bottom: 70px;
+    margin-left: -5px;
+    transform: rotate(-45deg);
+}
+
+
+.icon-about {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #28282e;
+    margin-left: 5px;
+}
+
+
+
+footer{
+
+	background-color: #F23E2C;
+	display: fixed;
+}
+
+
+.footer-content p{
+    
+   
+    display: block;
+	padding: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.form_section{
+
+	background-color: #F14838;
+	padding: 2%;
+}
+
+.head li {
+    display: inline-block;
+    margin: 8% 5%;
+	}
+
+	.head nav {
+		margin: 10px 0px;
+	}
+
+	.about h2 {
+	text-align: center;
+    font-size: 53px;
+    font-weight: 300;
+    padding-bottom: 30px;
+	}
+
+
+
+
+/*Mobile Device*/
+@media (min-width: 0px) and (max-width: 500px){
+
+}
+
+/*Small Device*/
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/*Medium Device*/
+
+@media (min-width: 768.01px) and (max-width: 1140px){
+
+}
+
+/*Large Device*/
+
+@media (min-width: 1200.01px){
+
+}
+
+

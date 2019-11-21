@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+
+header{
+
+    background: url(../img/homepage_nav.png) center top;
+    padding: 5%;
+	background-size: cover;
+ 	width: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+
+}
+
+
+.img-center{
+    display: block;
+    width: 18em;
+    /*margin-top: 2em;*/
+}
+
+.header-content{
+	padding: 35px 0px;
+}
+
+.header-content h2{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	width: 70%;
+	padding: 4% 7%;
+
+}
+nav ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+
+nav ul li{
+	display: inline-block;
+	margin: 8px 12px;
+	color: #fff;
+	background: transparent;
+	text-decoration: none;
+
+}
+
+
+
+
+nav ul a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+.header-content p{
+   color: #fff;
+}
+
+.header-content span{
+
+	border-bottom: 4px solid #fff;
+	display: block;
+	width: 5%;
+	margin: 10px 0px;
+
+}
+
+.btn-cstm{
+	background: transparent;
+	padding: 6px 46px;
+	border: 1px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+/*2nd section*/
+
+.mid-area{
+    
+ 
+   background-color:#F6F6F6;
+   width: 100%;
+   display: block;
+   padding: 3%;
+
+}
+
+.mid-area-content h2{
+    
+
+	color: black;
+	width: 100%;
+	margin: 10% 1%;
+
+}
+
+
+.mid-area-content span{
+
+	border-bottom: 4px solid #282923;
+	display: block;
+	width: 5%;
+	margin: 10px 0px;
+
+}
+
+
+
+.img-backside-1{
+
+    width: 30%;
+    position: absolute;
+ 
+    top: 40%;
+    left: 40%;
+    margin-top: 5%;
+
+}
+
+
+.img-backside{
+    
+    width: 300%;
+    position: relative;
+    
+    top: 30%; 
+    left:0%;
+    
+	
+}
+
+/*3rd section*/
+
+.last-area{
+   
+ 
+   /*display: fixed;*/
+   background-color:#28272D;
+   padding: 5%;
+
+}
+
+.last-area-content h2{
+
+	color: #fff;
+	width: 100%;
+	padding: 16px 7px;
+
+}
+
+.last-area-content p{
+   color: #fff;
+}
+
+.img-right{
+	  display: block;
+	  /*margin-left:  10%;*/
+	 /* width: 100%;*/
+	  margin: 25% 0%;
+
+}
+
+.last-area-content span{
+
+	border-bottom: 4px solid #fff;
+	display: block;
+	width: 5%;
+	margin: 10px 0px;
+
+}
+
+
+/*Footer*/
+
+footer{
+	background-color: red;
+}
+
+
+.footer-content p{
+   
+    padding: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*Mobile Device*/
+@media (min-width: 0px) and (max-width: 500px){
+
+}
+
+/*Small Device*/
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/*Medium Device*/
+
+@media (min-width: 768.01px) and (max-width: 1140px){
+
+}
+
+/*Large Device*/
+
+@media (min-width: 1200.01px){
+
+}
+
+
+
+
+
